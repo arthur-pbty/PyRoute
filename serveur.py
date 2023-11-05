@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from route import *
 from controller import *
 
+
 load_dotenv()
 listen = int(os.getenv("LISTEN"))
 host = os.getenv("HOST")
